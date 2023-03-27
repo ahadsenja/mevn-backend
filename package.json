@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "ts-node-dev --respawn src/index.ts",
     "build": "rm -rf build && node esbuild.js",
-    "linst": "eslint src/** --ext .ts"
+    "lint": "eslint src/** --ext .ts"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
@@ -27,6 +27,8 @@
     "@types/helmet": "^4.0.0",
     "@types/jsonwebtoken": "^9.0.1",
     "@types/mongoose": "^5.11.97",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
     "esbuild": "^0.17.14",
     "eslint": "^8.36.0",
     "prettier": "^2.8.7",
